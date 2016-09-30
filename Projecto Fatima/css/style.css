@@ -1,0 +1,153 @@
+body{
+    margin: 0;
+    height: 100%;
+}
+#logo{
+    font-family: 'Baloo Bhai', cursive;
+    font-size: 72px;
+    text-align: center;
+}
+
+nav{
+    width: 80%;
+    padding-left:10%;
+    padding-right: 10%; 
+    background-color: #3369E8;
+    padding-bottom: 0.5%;
+    padding-top: 0.5%;
+    text-align: center;
+}
+
+nav ul li{
+    display: inline;
+    margin: 1%;
+}
+
+nav ul li a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-family: 'Titillium Web', sans-serif;
+    padding: 0.5%;
+}
+
+nav ul li a:hover{
+    background-color: white;
+    color: #555;
+    border-radius: 5px;
+}
+
+main{
+    width: 70%;	
+    margin: auto;
+    background-color: white;
+    padding-top: 2%;
+    padding-right: 5%; 
+    padding-left: 5%;
+    padding-bottom: 2%; 
+    margin-top: 1%;
+    font-family: 'Titillium Web', sans-serif;
+    border-radius: 12px;
+    font-weight: bold;
+    color: #333;
+}
+
+#home{
+    width: 100%;
+    display: table; 
+}
+
+#home_direita{
+    width: 50%;
+    display: table-cell;
+    padding: 0%;
+    text-align: left;
+    vertical-align: top;
+    padding: 1%;
+}
+
+#home_esquerda{
+    width: 50%;
+    display: table-cell;
+    text-align: left;
+    vertical-align: center;
+    padding-top: 2%;
+}
+
+#home_esquerda img{
+    width: 60%;
+    text-align: left;
+}
+
+h2{
+    color: #3369E8;
+    text-align: center;
+}
+
+.form_criar{
+    width: 100%;
+    text-align: center;
+}
+
+.form_criar input{
+    width: 50%;
+    padding: 5px;
+    font-size: 14px;
+    background-color: white;
+    color: #333;
+    padding-bottom: 1%;
+    margin-bottom: 1%;
+}
+
+.form_criar select{
+    width: 50%;
+    padding: 5px;
+    font-size: 14px;
+    background-color: white;
+    color: #333;
+    padding-bottom: 1%;
+    margin-bottom: 1%;
+}
+
+.form_criar input[type="submit"]{
+    width: 20%;
+    background-color: #3369E8;
+    color: white;
+    font-weight: bold;
+    border: 1;
+    margin-bottom: 0%;
+    border-radius: 12px;
+    padding: 1%;
+}
+
+.form_criar input[type="submit"]:hover{
+    background-color: #5cb85c;
+}
+
+footer{
+    width: 90%;
+    padding-right: 5%;
+    padding-left: 5%;
+    padding-bottom: 1%;
+    padding-top: 1%;
+    background-color: #3369E8;
+    display: table;
+    margin-top: 5%;
+    color: white;
+    border-top-style: solid;
+    border-top-color: white;
+    border-top-width: 3px;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+.rod_esq{
+    display: table-cell;
+    width: 50%;
+    text-align: left;
+}
+
+.rod_dir{
+    display: table-cell;
+    width: 50%;
+    text-align: right;
+}
